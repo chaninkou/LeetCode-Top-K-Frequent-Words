@@ -14,6 +14,7 @@ public class FindTopKFrequentWords {
 			return Arrays.asList(words[0]);
 		}
 
+		// Count the appears
 		for (int i = 0; i < words.length; i++) {
 			map.put(words[i], map.getOrDefault(words[i], 0) + 1);
 		}
