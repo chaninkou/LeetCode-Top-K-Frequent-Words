@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public class FindTopKFrequentWords {
+	// Bucket sort
 	public List<String> topKFrequent(String[] words, int k) {
 		Map<String, Integer> map = new HashMap<>();
 
